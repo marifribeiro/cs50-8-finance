@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+
+<script>
+    function verify (username) {
+        $.getJSON("/check?username=" + username, function(value) {
+            if (value == false) {
+                alert('Username is already taken');
+                return false;
+            }
+        }
+    )};
+
+</script>
+
+    <form action="/register" method="post" id="register">
+        <div class="form-group" id="username">
+            <input autocomplete="off" class="form-control" name="username" placeholder="Username" type="text" onchange=verify(this.value) autofocus required>
+        </div>
+        <div class="form-group">
+            <input class="form-control" name="password" placeholder="Password" type="password" required>
+        </div>
+        <div class="form-group">
+            <input class="form-control" name="confirmation" placeholder="Confirm your password" type="password" required>
+        </div>
+        <button class="btn btn-primary" type="submit" id="submit">Register</button>
+    </form>
+{% endblock %}
+
