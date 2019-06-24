@@ -1,3 +1,4 @@
+from webconfig import API_KEY
 import requests
 import urllib.parse
 
@@ -39,11 +40,12 @@ def lookup(symbol):
 
     # Contact API
     try:
-        response = requests.get(f"https://api.iextrading.com/1.0/stock/{urllib.parse.quote_plus(symbol)}/quote")
+        api_key = API_KEY
+        response = requests.get(f"https://cloud-sse.iexapis.com/stable/stock/{urllib.parse.quote_plus(symbol)}/quote?token={api_key}")
         response.raise_for_status()
     except requests.RequestException:
         return None
-
+ 
     # Parse response
     try:
         quote = response.json()
