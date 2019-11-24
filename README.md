@@ -16,7 +16,7 @@ The exercise proposes that we:
 * Complete the implementation of **check** in such a way that it checks whether a username is available.
 
 ## Created with
-This application uses Python, HTML and styling with Bootstrap. It also uses [IEX API](https://iexcloud.io/) to get the stocks values in real time.
+This application uses Python, HTML and styling with Bootstrap. It also uses [IEX API](https://iexcloud.io/) to get the stocks values in real time and a SQL database to store users information, such as username, a hash of the password and the stocks they bought or sold and the history.
 
 ## Access
 My application is available at [cs50-8-finance.herokuapp](http://cs50-8-finance.herokuapp.com/login).
