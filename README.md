@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This application was the 8th week's exercise of Harvard's CS50 - Introduction to COmputer Science online course.
+This application was the 8th week's exercise of Harvard's CS50 - Introduction to Computer Science online course.
 You can learn more about CS50 at [Harvard's CS50](https://online-learning.harvard.edu/course/cs50-introduction-computer-science).
 
 The exercise proposes that we:
