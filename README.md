@@ -5,7 +5,7 @@
 This application was the 8th week's exercise of Harvard's CS50 - Introduction to Computer Science online course.
 You can learn more about CS50 at [Harvard's CS50](https://online-learning.harvard.edu/course/cs50-introduction-computer-science).
 
-The exercise proposes that we:
+The exercise proposes the following:
 * Implemented a web application that enables the user can "buy" and "sell" stocks, following the criteria below:
 * Complete the implementation of **register** in such a way that it allows a user to register for an account via a form.
 * Complete the implementation of **quote** in such a way that it allows a user to look up a stock’s current price.
@@ -16,7 +16,7 @@ The exercise proposes that we:
 * Complete the implementation of **check** in such a way that it checks whether a username is available.
 
 ## Created with
-This application uses Python, HTML and styling with Bootstrap. It also uses [IEX API](https://iexcloud.io/) to get the stocks values in real time and a SQL database to store users information, such as username, a hash of the password and the stocks they bought or sold and the history.
+This application uses Python, HTML and styling with Bootstrap. It also uses [IEX API](https://iexcloud.io/) to get the stocks values in real time and a SQL database to store users information, such as username, a hash of the password, the stocks they bought or sold and the history.
 
 ## Access
 My application is available at [cs50-8-finance.herokuapp](http://cs50-8-finance.herokuapp.com/login).
@@ -25,7 +25,7 @@ My application is available at [cs50-8-finance.herokuapp](http://cs50-8-finance.
 You will need [Python](https://www.python.org/downloads/) and [Flask](https://flask.palletsprojects.com/en/1.1.x/installation/) installed on your computer to run this application.
 
 Start by installing [Python 2.7.9](https://www.python.org/downloads/release/python-2717/) or higher.
-Once you have Python, run the following commands:
+Once you have Python, and clonned this repository, run the following commands:
 
 To install this project's dependecies, run:
 
@@ -39,15 +39,15 @@ Define the correct file as the default Flask application:
 
 Unix Bash (Linux, Mac, etc.):
 
-`export FLASK_APP=hello`
+`export FLASK_APP=application.py`
 
 Windows CMD:
 
-`set FLASK_APP=hello`
+`set FLASK_APP=application.py`
 
 Windows PowerShell:
 
-`$env:FLASK_APP = "hello"`
+`$env:FLASK_APP = "application.py"`
 
 Run Flask and you're good to go!
 
