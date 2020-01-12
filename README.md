@@ -24,16 +24,20 @@ My application is available at [cs50-8-finance.herokuapp](http://cs50-8-finance.
 ## Run
 You will need [Python](https://www.python.org/downloads/) and [Flask](https://flask.palletsprojects.com/en/1.1.x/installation/) installed on your computer to run this application.
 
-Start by installing [Python 2.7.9](https://www.python.org/downloads/release/python-2717/) or higher.
+Start by installing [Python 3](https://www.python.org/downloads/). Here's a [guide on the installation](https://wiki.python.org/moin/BeginnersGuide/Download).
 Once you have Python, and clonned this repository, run the following commands:
+
+To install pip, run:
+
+`sudo apt install python3-pip`
+
+To install Flask, run:
+
+`sudo apt install python3-flask`
 
 To install this project's dependecies, run:
 
 `pip3 install -r requirements.txt`
-
-Install Flask:
-
-`sudo apt install python3-flask`
 
 Define the correct file as the default Flask application:
 
