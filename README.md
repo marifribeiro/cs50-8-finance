@@ -1,5 +1,7 @@
 # CS50's Finance
 
+![finance](https://user-images.githubusercontent.com/45573073/72932217-15ba0280-3d3e-11ea-81e5-5b77ad9f86d2.png)
+
 ## Introduction
 
 This application was the 8th week's exercise of Harvard's CS50 - Introduction to Computer Science online course.
