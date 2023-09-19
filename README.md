@@ -20,9 +20,6 @@ The exercise proposes the following:
 ## Created with
 This application uses Python, HTML and styling with Bootstrap. It also uses [IEX API](https://iexcloud.io/) to get the stocks values in real time and a SQL database to store users information, such as username, a hash of the password, the stocks they bought or sold and the history.
 
-## Access
-My application is available at [cs50-8-finance.herokuapp](http://cs50-8-finance.herokuapp.com/login).
-
 ## Run
 You will need [Python](https://www.python.org/downloads/) and [Flask](https://flask.palletsprojects.com/en/1.1.x/installation/) installed on your computer to run this application.
 
